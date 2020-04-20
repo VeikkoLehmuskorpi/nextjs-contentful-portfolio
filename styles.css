@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+html,
+body,
+* {
+  color: #333;
+  line-height: 1.65;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body,
+html {
+  max-height: 100vh;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 92ch;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 1.25rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Bitter', serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+#document {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: auto;
+  padding-top: 5.3rem;
+}
+
+footer {
+  flex-shrink: 0;
+}
